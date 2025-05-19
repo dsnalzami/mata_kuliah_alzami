@@ -1,0 +1,29 @@
+Complete Linear Regression Formula:
+log(charges) = 8.5022 + 2.5491 × bmi_smoker - 2.1712 × age_smoker + 1.8574 × age + 0.8340 × health_risk_score + 0.4916 × children - 0.2343 × bmi_category_underweight - 0.1982 × bmi_age - 0.1875 × bmi - 0.1560 × region_southwest - 0.1211 × region_southeast - 0.1106 × bmi_category_obese - 0.0823 × bmi_category_overweight - 0.0742 × region_northwest - 0.0147 × age_group_young - 0.0131 × age_group_senior - 0.0001 × sex_encoded + 0.0000 × smoker_encoded - 0.0000 × age_group_encoded + 0.0000 × bmi_category_encoded - 0.0000 × region_encoded - 0.0000 × sex_male + 0.0000 × smoker_yes
+
+Simplified Formula (Top 10 features):
+log(charges) = 8.5022 + 2.5491 × bmi_smoker - 2.1712 × age_smoker + 1.8574 × age + 0.8340 × health_risk_score + 0.4916 × children - 0.2343 × bmi_category_underweight - 0.1982 × bmi_age - 0.1875 × bmi - 0.1560 × region_southwest - 0.1211 × region_southeast + ...
+
+Feature Importance (Absolute Coefficient Value):
+1. bmi_smoker: 2.549107
+2. age_smoker: 2.171229
+3. age: 1.857419
+4. health_risk_score: 0.833995
+5. children: 0.491584
+6. bmi_category_underweight: 0.234346
+7. bmi_age: 0.198245
+8. bmi: 0.187523
+9. region_southwest: 0.156050
+10. region_southeast: 0.121063
+11. bmi_category_obese: 0.110558
+12. bmi_category_overweight: 0.082313
+13. region_northwest: 0.074158
+14. age_group_young: 0.014703
+15. age_group_senior: 0.013076
+16. sex_encoded: 0.000060
+17. smoker_encoded: 0.000041
+18. age_group_encoded: 0.000025
+19. bmi_category_encoded: 0.000013
+20. region_encoded: 0.000003
+21. sex_male: 0.000000
+22. smoker_yes: 0.000000
