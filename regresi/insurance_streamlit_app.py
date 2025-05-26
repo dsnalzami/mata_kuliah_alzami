@@ -1,17 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import joblib
-import plotly.graph_objects as go
-import plotly.express as px
-from plotly.subplots import make_subplots
-import os
-
-'''
-Dr. Eng. Farrikh Alzami, M.Kom
-
-streamlit run .\insurance_streamlit_app.py
-'''
 
 # Page configuration - MUST be the first Streamlit command
 st.set_page_config(
@@ -20,6 +7,15 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+# streamlit run .\insurance_streamlit_app.py
+
+import pandas as pd
+import numpy as np
+import joblib
+import plotly.graph_objects as go
+import plotly.express as px
+from plotly.subplots import make_subplots
+import os
 
 def load_model_components():
     """Load model components with error handling"""
