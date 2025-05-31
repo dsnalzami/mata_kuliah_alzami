@@ -1,0 +1,1049 @@
+[2025-05-28T09:51:00.132+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T09:51:00.133+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-05-28T09:51:00.133+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T09:51:00.134+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T09:51:00.139+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T09:56:01.011+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T09:56:01.032+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T10:01:01.890+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:01:01.920+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T10:01:03.984+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  1.23s           2025-05-28T10:01:03
+================================================================================
+[2025-05-28T10:01:18.198+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T10:01:35.452+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T10:01:35.452+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-05-28T10:01:35.453+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T10:01:35.453+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:01:35.471+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T10:01:35.546+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_csv_to_sqlite.py    181  0.03s             0           0
+================================================================================
+[2025-05-28T10:02:06.031+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py    195  0.01s             1           0  0.41s           2025-05-28T10:01:35
+================================================================================
+[2025-05-28T10:02:36.593+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.59s           2025-05-28T10:02:06
+================================================================================
+[2025-05-28T10:03:06.649+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.37s           2025-05-28T10:02:37
+================================================================================
+[2025-05-28T10:03:36.983+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.56s           2025-05-28T10:03:08
+================================================================================
+[2025-05-28T10:04:07.325+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.41s           2025-05-28T10:03:38
+================================================================================
+[2025-05-28T10:04:37.632+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:04:09
+================================================================================
+[2025-05-28T10:05:07.936+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.37s           2025-05-28T10:04:40
+================================================================================
+[2025-05-28T10:05:38.788+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.47s           2025-05-28T10:05:11
+================================================================================
+[2025-05-28T10:06:09.349+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:05:42
+================================================================================
+[2025-05-28T10:06:35.891+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:06:35.953+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T10:06:40.013+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.37s           2025-05-28T10:06:12
+================================================================================
+[2025-05-28T10:07:10.550+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.37s           2025-05-28T10:06:43
+================================================================================
+[2025-05-28T10:07:41.050+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:07:13
+================================================================================
+[2025-05-28T10:08:11.556+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:07:44
+================================================================================
+[2025-05-28T10:08:42.046+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:08:14
+================================================================================
+[2025-05-28T10:09:12.531+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:08:45
+================================================================================
+[2025-05-28T10:09:43.097+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:09:16
+================================================================================
+[2025-05-28T10:10:13.700+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.41s           2025-05-28T10:09:46
+================================================================================
+[2025-05-28T10:10:44.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:10:17
+================================================================================
+[2025-05-28T10:11:14.337+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.40s           2025-05-28T10:10:48
+================================================================================
+[2025-05-28T10:11:35.965+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:11:36.020+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T10:11:44.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.40s           2025-05-28T10:11:18
+================================================================================
+[2025-05-28T10:12:14.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:11:49
+================================================================================
+[2025-05-28T10:12:45.289+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.63s           2025-05-28T10:12:20
+================================================================================
+[2025-05-28T10:12:56.727+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T10:13:11.078+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T10:13:11.079+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-05-28T10:13:11.080+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T10:13:11.081+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:13:11.217+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-05-28T10:13:11.341+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_api_to_sqlite.py    181  0.06s             0           0
+/opt/airflow/dags/etl_csv_to_sqlite.py    184  0.04s             0           0
+================================================================================
+[2025-05-28T10:13:42.373+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py    201  0.03s             1           0  0.43s           2025-05-28T10:13:11
+/opt/airflow/dags/etl_csv_to_sqlite.py    204  0.01s             1           0  0.41s           2025-05-28T10:13:11
+================================================================================
+[2025-05-28T10:14:13.311+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py    221  0.04s             1           0  0.62s           2025-05-28T10:13:42
+/opt/airflow/dags/etl_csv_to_sqlite.py    224  0.01s             1           0  0.45s           2025-05-28T10:13:42
+================================================================================
+[2025-05-28T10:14:43.659+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:14:13
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:14:13
+================================================================================
+[2025-05-28T10:15:13.676+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:14:44
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.43s           2025-05-28T10:14:44
+================================================================================
+[2025-05-28T10:15:44.641+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:15:15
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:15:15
+================================================================================
+[2025-05-28T10:16:14.683+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.66s           2025-05-28T10:15:46
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.62s           2025-05-28T10:15:46
+================================================================================
+[2025-05-28T10:16:45.101+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.41s           2025-05-28T10:16:17
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:16:17
+================================================================================
+[2025-05-28T10:17:15.304+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:16:47
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.46s           2025-05-28T10:16:47
+================================================================================
+[2025-05-28T10:17:45.741+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.45s           2025-05-28T10:17:18
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.41s           2025-05-28T10:17:18
+================================================================================
+[2025-05-28T10:18:11.531+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:18:11.662+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-05-28T10:18:15.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.41s           2025-05-28T10:17:49
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.34s           2025-05-28T10:17:49
+================================================================================
+[2025-05-28T10:18:46.354+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.42s           2025-05-28T10:18:20
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:18:20
+================================================================================
+[2025-05-28T10:19:06.788+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T10:19:23.670+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T10:19:23.671+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-05-28T10:19:23.672+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T10:19:23.673+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:19:23.744+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-05-28T10:19:23.870+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_api_to_sqlite.py    184  0.05s             0           0
+/opt/airflow/dags/etl_csv_to_sqlite.py                           0           0
+/opt/airflow/dags/etl_multi.py            181  0.07s             0           0
+================================================================================
+[2025-05-28T10:19:54.047+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.37s           2025-05-28T10:19:24
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.32s           2025-05-28T10:19:24
+/opt/airflow/dags/etl_multi.py                                   1           0  0.42s           2025-05-28T10:19:24
+================================================================================
+[2025-05-28T10:20:24.597+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.58s           2025-05-28T10:19:55
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.60s           2025-05-28T10:19:56
+/opt/airflow/dags/etl_multi.py                                   1           0  0.58s           2025-05-28T10:19:55
+================================================================================
+[2025-05-28T10:20:55.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.39s           2025-05-28T10:20:26
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.89s           2025-05-28T10:20:26
+/opt/airflow/dags/etl_multi.py                                   1           0  0.46s           2025-05-28T10:20:26
+================================================================================
+[2025-05-28T10:21:25.652+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.40s           2025-05-28T10:20:57
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:20:57
+/opt/airflow/dags/etl_multi.py                                   1           0  0.50s           2025-05-28T10:20:57
+================================================================================
+[2025-05-28T10:21:55.914+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.48s           2025-05-28T10:21:27
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.41s           2025-05-28T10:21:28
+/opt/airflow/dags/etl_multi.py                                   1           0  0.38s           2025-05-28T10:21:28
+================================================================================
+[2025-05-28T10:22:26.545+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.38s           2025-05-28T10:21:58
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:21:59
+/opt/airflow/dags/etl_multi.py                                   1           0  0.44s           2025-05-28T10:21:58
+================================================================================
+[2025-05-28T10:22:56.548+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.54s           2025-05-28T10:22:29
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.48s           2025-05-28T10:22:29
+/opt/airflow/dags/etl_multi.py                                   1           0  0.53s           2025-05-28T10:22:29
+================================================================================
+[2025-05-28T10:23:26.667+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.45s           2025-05-28T10:23:00
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.37s           2025-05-28T10:23:00
+/opt/airflow/dags/etl_multi.py                                   1           0  0.46s           2025-05-28T10:23:00
+================================================================================
+[2025-05-28T10:23:57.011+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.41s           2025-05-28T10:23:31
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.43s           2025-05-28T10:23:31
+/opt/airflow/dags/etl_multi.py                                   1           0  0.37s           2025-05-28T10:23:31
+================================================================================
+[2025-05-28T10:24:23.941+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:24:24.068+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-05-28T10:24:27.135+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.35s           2025-05-28T10:24:02
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:24:02
+/opt/airflow/dags/etl_multi.py                                   1           0  0.46s           2025-05-28T10:24:02
+================================================================================
+[2025-05-28T10:24:57.565+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.39s           2025-05-28T10:24:32
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.35s           2025-05-28T10:24:33
+/opt/airflow/dags/etl_multi.py                                   1           0  0.51s           2025-05-28T10:24:33
+================================================================================
+[2025-05-28T10:25:28.157+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.38s           2025-05-28T10:25:03
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.45s           2025-05-28T10:25:03
+/opt/airflow/dags/etl_multi.py                                   1           0  0.39s           2025-05-28T10:25:03
+================================================================================
+[2025-05-28T10:25:58.739+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.40s           2025-05-28T10:25:33
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.39s           2025-05-28T10:25:34
+/opt/airflow/dags/etl_multi.py                                   1           0  0.40s           2025-05-28T10:25:34
+================================================================================
+[2025-05-28T10:26:29.554+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.53s           2025-05-28T10:26:04
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.33s           2025-05-28T10:26:05
+/opt/airflow/dags/etl_multi.py                                   1           0  0.49s           2025-05-28T10:26:05
+================================================================================
+[2025-05-28T10:27:00.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:26:36
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:26:36
+/opt/airflow/dags/etl_multi.py                                   1           0  0.46s           2025-05-28T10:26:36
+================================================================================
+[2025-05-28T10:27:30.071+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.56s           2025-05-28T10:27:07
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:27:07
+/opt/airflow/dags/etl_multi.py                                   1           0  0.55s           2025-05-28T10:27:07
+================================================================================
+[2025-05-28T10:28:00.508+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.42s           2025-05-28T10:27:38
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.38s           2025-05-28T10:27:38
+/opt/airflow/dags/etl_multi.py                                   1           0  0.40s           2025-05-28T10:27:38
+================================================================================
+[2025-05-28T10:28:30.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.55s           2025-05-28T10:28:09
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:28:09
+/opt/airflow/dags/etl_multi.py                                   1           0  0.64s           2025-05-28T10:28:09
+================================================================================
+[2025-05-28T10:28:45.159+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T10:29:29.434+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T10:29:29.435+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-05-28T10:29:29.436+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T10:29:29.438+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:29:29.572+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T10:29:29.763+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_api_to_sqlite.py                           0           0
+/opt/airflow/dags/etl_csv_to_sqlite.py                           0           0
+/opt/airflow/dags/etl_multi.py            184  0.04s             0           0
+/opt/airflow/dags/weather.py              181  0.08s             0           0
+================================================================================
+[2025-05-28T10:30:00.563+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.52s           2025-05-28T10:29:30
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.42s           2025-05-28T10:29:31
+/opt/airflow/dags/etl_multi.py            216  0.00s             1           0  0.59s           2025-05-28T10:29:30
+/opt/airflow/dags/weather.py              213  0.04s             1           0  0.61s           2025-05-28T10:29:30
+================================================================================
+[2025-05-28T10:30:30.867+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.61s           2025-05-28T10:30:01
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.59s           2025-05-28T10:30:02
+/opt/airflow/dags/etl_multi.py                                   1           0  0.78s           2025-05-28T10:30:01
+/opt/airflow/dags/weather.py                                     1           0  0.77s           2025-05-28T10:30:01
+================================================================================
+[2025-05-28T10:31:01.110+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.34s           2025-05-28T10:30:32
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.48s           2025-05-28T10:30:32
+/opt/airflow/dags/etl_multi.py                                   1           0  0.43s           2025-05-28T10:30:32
+/opt/airflow/dags/weather.py                                     1           0  0.48s           2025-05-28T10:30:32
+================================================================================
+[2025-05-28T10:31:31.512+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.34s           2025-05-28T10:31:02
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.41s           2025-05-28T10:31:03
+/opt/airflow/dags/etl_multi.py                                   1           0  0.46s           2025-05-28T10:31:02
+/opt/airflow/dags/weather.py                                     1           0  0.46s           2025-05-28T10:31:02
+================================================================================
+[2025-05-28T10:32:01.655+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.34s           2025-05-28T10:31:33
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.46s           2025-05-28T10:31:34
+/opt/airflow/dags/etl_multi.py                                   1           0  0.55s           2025-05-28T10:31:33
+/opt/airflow/dags/weather.py                                     1           0  0.55s           2025-05-28T10:31:33
+================================================================================
+[2025-05-28T10:32:31.671+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.36s           2025-05-28T10:32:04
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.52s           2025-05-28T10:32:05
+/opt/airflow/dags/etl_multi.py                                   1           0  0.45s           2025-05-28T10:32:04
+/opt/airflow/dags/weather.py                                     1           0  0.52s           2025-05-28T10:32:04
+================================================================================
+[2025-05-28T10:33:01.727+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.42s           2025-05-28T10:32:35
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.34s           2025-05-28T10:32:35
+/opt/airflow/dags/etl_multi.py                                   1           0  0.41s           2025-05-28T10:32:34
+/opt/airflow/dags/weather.py                                     1           0  0.56s           2025-05-28T10:32:34
+================================================================================
+[2025-05-28T10:33:31.821+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.50s           2025-05-28T10:33:06
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.44s           2025-05-28T10:33:06
+/opt/airflow/dags/etl_multi.py                                   1           0  0.64s           2025-05-28T10:33:05
+/opt/airflow/dags/weather.py                                     1           0  0.65s           2025-05-28T10:33:05
+================================================================================
+[2025-05-28T10:34:02.248+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.34s           2025-05-28T10:33:36
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.56s           2025-05-28T10:33:37
+/opt/airflow/dags/etl_multi.py                                   1           0  0.42s           2025-05-28T10:33:36
+/opt/airflow/dags/weather.py                                     1           0  0.40s           2025-05-28T10:33:36
+================================================================================
+[2025-05-28T10:34:29.928+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:34:30.084+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T10:34:33.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:34:07
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.50s           2025-05-28T10:34:08
+/opt/airflow/dags/etl_multi.py                                   1           0  0.57s           2025-05-28T10:34:07
+/opt/airflow/dags/weather.py                                     1           0  0.52s           2025-05-28T10:34:07
+================================================================================
+[2025-05-28T10:35:03.840+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:34:38
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.59s           2025-05-28T10:34:39
+/opt/airflow/dags/etl_multi.py                                   1           0  0.58s           2025-05-28T10:34:37
+/opt/airflow/dags/weather.py                                     1           0  0.55s           2025-05-28T10:34:37
+================================================================================
+[2025-05-28T10:35:33.879+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:35:08
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:35:10
+/opt/airflow/dags/etl_multi.py                                   1           0  0.43s           2025-05-28T10:35:08
+/opt/airflow/dags/weather.py                                     1           0  0.40s           2025-05-28T10:35:08
+================================================================================
+[2025-05-28T10:36:04.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.46s           2025-05-28T10:35:40
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:35:41
+/opt/airflow/dags/etl_multi.py                                   1           0  0.55s           2025-05-28T10:35:39
+/opt/airflow/dags/weather.py                                     1           0  0.53s           2025-05-28T10:35:39
+================================================================================
+[2025-05-28T10:36:34.759+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.63s           2025-05-28T10:36:10
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.58s           2025-05-28T10:36:12
+/opt/airflow/dags/etl_multi.py                                   1           0  0.59s           2025-05-28T10:36:10
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:36:10
+================================================================================
+[2025-05-28T10:37:04.983+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.51s           2025-05-28T10:36:41
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.47s           2025-05-28T10:36:43
+/opt/airflow/dags/etl_multi.py                                   1           0  0.48s           2025-05-28T10:36:40
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:36:41
+================================================================================
+[2025-05-28T10:37:35.148+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.49s           2025-05-28T10:37:12
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.53s           2025-05-28T10:37:13
+/opt/airflow/dags/etl_multi.py                                   1           0  0.59s           2025-05-28T10:37:11
+/opt/airflow/dags/weather.py                                     1           0  0.55s           2025-05-28T10:37:11
+================================================================================
+[2025-05-28T10:38:05.436+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.48s           2025-05-28T10:37:43
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.48s           2025-05-28T10:37:44
+/opt/airflow/dags/etl_multi.py                                   1           0  0.64s           2025-05-28T10:37:42
+/opt/airflow/dags/weather.py                                     1           0  0.63s           2025-05-28T10:37:42
+================================================================================
+[2025-05-28T10:38:36.407+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.48s           2025-05-28T10:38:14
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.61s           2025-05-28T10:38:15
+/opt/airflow/dags/etl_multi.py                                   1           0  0.67s           2025-05-28T10:38:13
+/opt/airflow/dags/weather.py                                     1           0  0.70s           2025-05-28T10:38:13
+================================================================================
+[2025-05-28T10:39:06.703+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.54s           2025-05-28T10:38:45
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.57s           2025-05-28T10:38:47
+/opt/airflow/dags/etl_multi.py                                   1           0  0.62s           2025-05-28T10:38:45
+/opt/airflow/dags/weather.py                                     1           0  0.61s           2025-05-28T10:38:45
+================================================================================
+[2025-05-28T10:39:30.381+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:39:30.507+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T10:39:37.049+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.56s           2025-05-28T10:39:16
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.60s           2025-05-28T10:39:18
+/opt/airflow/dags/etl_multi.py                                   1           0  0.92s           2025-05-28T10:39:16
+/opt/airflow/dags/weather.py                                     1           0  0.93s           2025-05-28T10:39:16
+================================================================================
+[2025-05-28T10:40:07.133+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.53s           2025-05-28T10:39:47
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.70s           2025-05-28T10:39:49
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:39:47
+/opt/airflow/dags/weather.py                                     1           0  0.55s           2025-05-28T10:39:47
+================================================================================
+[2025-05-28T10:40:37.322+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:40:19
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.58s           2025-05-28T10:40:20
+/opt/airflow/dags/etl_multi.py                                   1           0  0.55s           2025-05-28T10:40:18
+/opt/airflow/dags/weather.py                                     1           0  0.52s           2025-05-28T10:40:18
+================================================================================
+[2025-05-28T10:41:07.522+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.48s           2025-05-28T10:40:49
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.47s           2025-05-28T10:40:51
+/opt/airflow/dags/etl_multi.py                                   1           0  0.56s           2025-05-28T10:40:49
+/opt/airflow/dags/weather.py                                     1           0  0.52s           2025-05-28T10:40:49
+================================================================================
+[2025-05-28T10:41:38.384+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.57s           2025-05-28T10:41:20
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.60s           2025-05-28T10:41:22
+/opt/airflow/dags/etl_multi.py                                   1           0  0.52s           2025-05-28T10:41:20
+/opt/airflow/dags/weather.py                                     1           0  0.60s           2025-05-28T10:41:19
+================================================================================
+[2025-05-28T10:42:08.501+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.52s           2025-05-28T10:41:51
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:41:52
+/opt/airflow/dags/etl_multi.py                                   1           0  0.50s           2025-05-28T10:41:51
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:41:51
+================================================================================
+[2025-05-28T10:42:38.756+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.46s           2025-05-28T10:42:22
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.52s           2025-05-28T10:42:23
+/opt/airflow/dags/etl_multi.py                                   1           0  0.59s           2025-05-28T10:42:21
+/opt/airflow/dags/weather.py                                     1           0  0.64s           2025-05-28T10:42:21
+================================================================================
+[2025-05-28T10:43:09.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.53s           2025-05-28T10:42:53
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:42:54
+/opt/airflow/dags/etl_multi.py                                   1           0  0.47s           2025-05-28T10:42:52
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:42:52
+================================================================================
+[2025-05-28T10:43:39.366+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.54s           2025-05-28T10:43:24
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:43:25
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:43:23
+/opt/airflow/dags/weather.py                                     1           0  0.57s           2025-05-28T10:43:23
+================================================================================
+[2025-05-28T10:44:09.384+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.49s           2025-05-28T10:43:54
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.45s           2025-05-28T10:43:56
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:43:54
+/opt/airflow/dags/weather.py                                     1           0  0.51s           2025-05-28T10:43:54
+================================================================================
+[2025-05-28T10:44:30.978+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:44:31.229+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T10:44:39.433+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.52s           2025-05-28T10:44:25
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:44:26
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:44:24
+/opt/airflow/dags/weather.py                                     1           0  0.64s           2025-05-28T10:44:24
+================================================================================
+[2025-05-28T10:45:09.545+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.62s           2025-05-28T10:44:56
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.63s           2025-05-28T10:44:57
+/opt/airflow/dags/etl_multi.py                                   1           0  0.64s           2025-05-28T10:44:55
+/opt/airflow/dags/weather.py                                     1           0  0.60s           2025-05-28T10:44:55
+================================================================================
+[2025-05-28T10:45:39.818+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.51s           2025-05-28T10:45:26
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.56s           2025-05-28T10:45:28
+/opt/airflow/dags/etl_multi.py                                   1           0  0.58s           2025-05-28T10:45:26
+/opt/airflow/dags/weather.py                                     1           0  0.64s           2025-05-28T10:45:26
+================================================================================
+[2025-05-28T10:46:10.269+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.52s           2025-05-28T10:45:58
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.52s           2025-05-28T10:45:59
+/opt/airflow/dags/etl_multi.py                                   1           0  0.50s           2025-05-28T10:45:57
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:45:57
+================================================================================
+[2025-05-28T10:46:40.957+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.56s           2025-05-28T10:46:29
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.51s           2025-05-28T10:46:30
+/opt/airflow/dags/etl_multi.py                                   1           0  0.53s           2025-05-28T10:46:28
+/opt/airflow/dags/weather.py                                     1           0  0.54s           2025-05-28T10:46:28
+================================================================================
+[2025-05-28T10:47:11.779+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.49s           2025-05-28T10:47:00
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.50s           2025-05-28T10:47:01
+/opt/airflow/dags/etl_multi.py                                   1           0  0.63s           2025-05-28T10:47:00
+/opt/airflow/dags/weather.py                                     1           0  0.55s           2025-05-28T10:46:59
+================================================================================
+[2025-05-28T10:47:41.899+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.50s           2025-05-28T10:47:31
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.48s           2025-05-28T10:47:32
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:47:30
+/opt/airflow/dags/weather.py                                     1           0  0.53s           2025-05-28T10:47:30
+================================================================================
+[2025-05-28T10:48:12.049+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:48:01
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.46s           2025-05-28T10:48:03
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:48:01
+/opt/airflow/dags/weather.py                                     1           0  0.61s           2025-05-28T10:48:01
+================================================================================
+[2025-05-28T10:48:42.508+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.67s           2025-05-28T10:48:33
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.69s           2025-05-28T10:48:34
+/opt/airflow/dags/etl_multi.py                                   1           0  0.56s           2025-05-28T10:48:32
+/opt/airflow/dags/weather.py                                     1           0  0.66s           2025-05-28T10:48:32
+================================================================================
+[2025-05-28T10:49:12.701+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.54s           2025-05-28T10:49:04
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.58s           2025-05-28T10:49:05
+/opt/airflow/dags/etl_multi.py                                   1           0  0.53s           2025-05-28T10:49:03
+/opt/airflow/dags/weather.py                                     1           0  0.54s           2025-05-28T10:49:03
+================================================================================
+[2025-05-28T10:49:31.448+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:49:31.602+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T10:49:43.435+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.47s           2025-05-28T10:49:34
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.54s           2025-05-28T10:49:36
+/opt/airflow/dags/etl_multi.py                                   1           0  0.51s           2025-05-28T10:49:34
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:49:34
+================================================================================
+[2025-05-28T10:50:14.151+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.56s           2025-05-28T10:50:06
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.74s           2025-05-28T10:50:07
+/opt/airflow/dags/etl_multi.py                                   1           0  0.57s           2025-05-28T10:50:05
+/opt/airflow/dags/weather.py                                     1           0  0.68s           2025-05-28T10:50:05
+================================================================================
+[2025-05-28T10:50:44.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.46s           2025-05-28T10:50:36
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.55s           2025-05-28T10:50:38
+/opt/airflow/dags/etl_multi.py                                   1           0  0.53s           2025-05-28T10:50:36
+/opt/airflow/dags/weather.py                                     1           0  0.59s           2025-05-28T10:50:36
+================================================================================
+[2025-05-28T10:51:15.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.44s           2025-05-28T10:51:07
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.49s           2025-05-28T10:51:09
+/opt/airflow/dags/etl_multi.py                                   1           0  0.51s           2025-05-28T10:51:06
+/opt/airflow/dags/weather.py                                     1           0  0.51s           2025-05-28T10:51:06
+================================================================================
+[2025-05-28T10:51:45.619+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.50s           2025-05-28T10:51:37
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.50s           2025-05-28T10:51:40
+/opt/airflow/dags/etl_multi.py                                   1           0  0.47s           2025-05-28T10:51:37
+/opt/airflow/dags/weather.py                                     1           0  0.47s           2025-05-28T10:51:37
+================================================================================
+[2025-05-28T10:52:15.839+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_api_to_sqlite.py                           1           0  0.50s           2025-05-28T10:52:09
+/opt/airflow/dags/etl_csv_to_sqlite.py                           1           0  0.52s           2025-05-28T10:52:11
+/opt/airflow/dags/etl_multi.py                                   1           0  0.54s           2025-05-28T10:52:08
+/opt/airflow/dags/weather.py                                     1           0  0.51s           2025-05-28T10:52:08
+================================================================================
+[2025-05-28T10:57:35.670+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T10:57:36.039+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T12:17:27.601+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T12:17:28.070+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
